@@ -1,0 +1,10 @@
+[Fri Dec 8 14:51:22 GMT 2017host:Máquina1ip:172.16.5.65]->DOWN
+[Fri Dec 8 14:51:23 GMT 2017host:Máquina2ip:172.16.5.16]->DOWN
+[Fri Dec 8 14:51:23 GMT 2017host:evelynip:172.16.5.13]->UP
+[Fri Dec 8 14:51:23 GMT 2017host:Kennedyip:172.16.5.14]->UP
+[Fri Dec 8 14:51:23 GMT 2017host:Victoriaip:172.16.5.28]->UP
+[Fri Dec 8 14:51:23 GMT 2017host:Carlosip:172.16.5.11]->UP
+[Fri Dec 8 14:51:24 GMT 2017host:Wallaceip:172.16.5.19]->DOWN
+[Fri Dec 8 14:51:24 GMT 2017host:Willianip:172.16.5.22]->UP
+[Fri Dec 8 14:51:24 GMT 2017host:Gustavoip:172.16.5.21]->UP
+[Fri Dec 8 14:51:24 GMT 2017host:Guilhermeip:172.16.5.23]->UP

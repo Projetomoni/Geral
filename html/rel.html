@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoramento</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span> Add equi/ relatórios </span>
+        </div>
+        
+        <div class="formulario">
+            <h2>Relatórios</h2>
+            <form action="cgi-bin/cats.cgi" method="post">
+                <input type="text" name="rel" placeholder="Digite Completo ou Atual" required>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+        
+        <div class="formulario">
+            <h2>Adicionar Equipamento</h2>
+            <form action="adde.cgi">
+                <input type="text" placeholder="Digite o Nome do Equipamento" required>
+		<input type="password" placeholder="Digite o IP do Equipamento" required>
+		<input type="submit" value="Registrar Equipamento">
+            </form>
+        </div>
+        <div class="reset-password">
+            <a href="menu.html">Voltar ao Menu</a>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>    
+    <script src="js/main.js"></script>
+</body>
+</html>
