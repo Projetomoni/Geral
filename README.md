@@ -1,2 +1,0 @@
-# Geral
-Baixe esse aqui

@@ -21,9 +21,9 @@
         
         <div class="formulario">
             <h2>Adicionar Equipamento</h2>
-            <form action="adde.cgi">
-                <input type="text" placeholder="Digite o Nome do Equipamento" required>
-		<input type="password" placeholder="Digite o IP do Equipamento" required>
+            <form action="cgi-bin/addequip.cgi" method="post">
+                <input type="text" name="maq" placeholder="Digite o Nome do Equipamento" required>
+		<input type="text" name="ip" placeholder="Digite o IP do Equipamento" required>
 		<input type="submit" value="Registrar Equipamento">
             </form>
         </div>
