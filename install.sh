@@ -13,7 +13,7 @@ apt-get update && apt-get install apache2 -y && apt-get install dialog -y || fal
 a2enmod cgid
 cp /etc/apache2/conf-enabled/charset.conf charset.conf.bkp
 echo "AddDefaultCharset UTF-8" >> /etc/apache2/conf-enabled/charset.conf
-$(systemctl restart apache2)
+systemctl restart apache2
 cp -R /var/www/html /var/www/html.bkp
 cp -R /usr/lib/cgi-bin /usr/lib/cgi-bin.bkp
 cp -R ./html /var/www
