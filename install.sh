@@ -18,4 +18,4 @@ cp -R /var/www/html /var/www/html.bkp
 cp -R /usr/lib/cgi-bin /usr/lib/cgi-bin.bkp
 cp -R ./html /var/www
 cp -R ./cgi-bin /usr/lib
-chmod 777 *
+chmod 777 /usr/lib/cgi-bin/*
