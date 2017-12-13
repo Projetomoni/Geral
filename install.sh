@@ -9,7 +9,7 @@ falhou(){
                 exit 0 ;;
         esac
 }
-apt-get update && apt-get install apache2 dialog -y || falhou instalacao
+apt-get update && apt-get install apache2 -y && apt-get install dialog -y || falhou instalacao
 a2enmod cgid
 cp /etc/apache2/conf-enabled/charset.conf charset.conf.bkp
 echo "AddDefaultCharset UTF-8" >> /etc/apache2/conf-enabled/charset.conf
